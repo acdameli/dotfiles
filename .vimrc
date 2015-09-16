@@ -45,5 +45,8 @@ map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>
 
+set expandtab ts=4 sw=4 nopaste number nowrap smartindent autoindent
 au BufRead *.php EnableFastPHPFolds
-au BufRead *.php set expandtab ts=4 sw=4 nopaste number nowrap autoindent smartindent
+au BufEnter *.php set expandtab ts=4 sw=4 nopaste number nowrap smartindent autoindent
+au BufEnter *.yml set expandtab ts=2 sw=2 nopaste number nowrap smartindent autoindent
+au BufEnter *.js set expandtab ts=4 sw=4 nopaste number nowrap smartindent autoindent
