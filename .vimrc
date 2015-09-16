@@ -46,4 +46,4 @@ map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>
 
 au BufRead *.php EnableFastPHPFolds
-au BufRead *.php set expandtab ts=4 sw=4 nopaste number nowrap
+au BufRead *.php set expandtab ts=4 sw=4 nopaste number nowrap autoindent smartindent
